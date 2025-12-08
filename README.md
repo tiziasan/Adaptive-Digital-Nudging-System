@@ -1,4 +1,5 @@
 # Adaptive-Digital-Nudging-System
+Questa repository è il supplemental material per il paper **From Behavioral Theory to Software Architecture: Designing Adaptive Digital Nudging Systems**
 ## Backend installation
 ```bash
 pip install openai
