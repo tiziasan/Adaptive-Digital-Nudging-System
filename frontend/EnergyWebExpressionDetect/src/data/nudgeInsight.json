@@ -1,0 +1,155 @@
+{
+  "user_id": "user_8a7f2e1d",
+  "session_id": "sess_9b4c3d2a",
+  "timestamp": "2025-11-12T13:42:15.234567",
+  "session_duration_sec": 2.8,
+  "user_emotion": "neutral",
+  "electrodomestic_interactions": [
+    {
+      "appliance_type": "washing_machine",
+      "clicks": 1,
+      "scrolls": 1,
+      "hesitation_ms": 4200,
+      "usage_hours_yesterday": 2.3,
+      "usage_hours_last_week": 8.5,
+      "appliance_watt_consumption": 2000
+    },
+    {
+      "appliance_type": "refrigerator",
+      "clicks": 1,
+      "scrolls": 1,
+      "hesitation_ms": 1800,
+      "usage_hours_yesterday": 24.0,
+      "usage_hours_last_week": 168.0,
+      "appliance_watt_consumption": 150
+    },
+    {
+      "appliance_type": "dishwasher",
+      "clicks": 1,
+      "scrolls": 1,
+      "hesitation_ms": 5600,
+      "usage_hours_yesterday": 1.8,
+      "usage_hours_last_week": 9.2,
+      "appliance_watt_consumption": 1200
+    },
+    {
+      "appliance_type": "air_conditioner",
+      "clicks": 1,
+      "scrolls": 1,
+      "hesitation_ms": 2400,
+      "usage_hours_yesterday": 6.5,
+      "usage_hours_last_week": 42.0,
+      "appliance_watt_consumption": 3500
+    },
+    {
+      "appliance_type": "oven",
+      "clicks": 1,
+      "scrolls": 1,
+      "hesitation_ms": 900,
+      "usage_hours_yesterday": 0.5,
+      "usage_hours_last_week": 3.2,
+      "appliance_watt_consumption": 2400
+    }
+  ],
+  "context": {
+    "time_of_day": "afternoon",
+    "location": "home",
+    "device_type": "laptop"
+  },
+  "previous_nudges": [
+    {
+      "nudge_id": "nudge_001",
+      "session_id": "sess_9b4c3d2a",
+      "timestamp": "2025-11-12T13:42:15.234567",
+      "user_modeling": {
+        "cognitive_mode": "analytical/slow",
+        "cognitive_mode_reasoning": "The user demonstrates analytical thinking through sustained engagement: 68 seconds on the dishwasher with 12 clicks and 5.6 seconds of hesitation, plus 45 seconds on the washing machine with 8 clicks and 4.2 seconds hesitation. This pattern of multiple interactions with extended dwell times across several appliances indicates systematic, deliberate analysis rather than quick, intuitive decision-making.",
+        "behavioral_stage": "Contemplation",
+        "behavioral_stage_reasoning": "The user shows high engagement with energy data (245.8 second session exploring 5 appliances) and exhibits research behavior through long hesitation times on high-consumption appliances. However, the exploration pattern without focused action on the highest consumer (air conditioner: 22.75 kWh/day) suggests information gathering rather than commitment to specific changes, placing them in the Contemplation stage.",
+        "attention_availability": "medium",
+        "attention_availability_reasoning": "Mobile device usage in the afternoon at home indicates moderate attention capacity. The 245-second session with engagement across multiple appliances shows sustained interest, but the mobile context and distributed attention (5 different appliances) suggests medium rather than high cognitive availability for processing complex information.",
+        "modeling_timestamp": "2025-11-12T16:10:32.891234"
+      },
+      "nudge_intelligence": {
+        "selected_strategy": "Raise visibility of user's actions",
+        "strategy_description": "Make user actions more observable to themselves or others to heighten awareness and accountability",
+        "strategy_selection_reasoning": "Given the user's analytical/slow cognitive mode and Contemplation stage, visibility strategies are highly effective for informing decision-making. The user focused significant attention on the dishwasher (68s, 12 clicks) but the air conditioner consumes 10x more energy (22.75 kWh/day vs 2.16 kWh/day). Raising visibility of actual consumption will redirect attention to the highest-impact appliance and leverage the user's analytical nature to make data-driven energy reduction decisions.",
+        "nudge_message": "Your air conditioner consumed 22.75 kWh yesterday\u201466% of your total energy use and 10x more than your dishwasher. Reducing AC usage by just 2 hours daily could save \u20ac8.40 weekly. Track your air conditioner patterns in the dashboard to identify reduction opportunities.",
+        "generation_timestamp": "2025-11-12T16:38:47.456789",
+        "feedback": "the user liked this nudge"
+      }
+    },
+    {
+      "nudge_id": "nudge_002",
+      "session_id": "sess_7c5d4e3b",
+      "timestamp": "2025-11-09T09:15:32.123456",
+      "user_modeling": {
+        "cognitive_mode": "intuitive/fast",
+        "cognitive_mode_reasoning": "The user displayed quick, spontaneous interactions: only 18 seconds total session time with minimal clicks (3 total) and very low hesitation (average 800ms). This rapid scanning behavior with immediate decisions indicates intuitive System 1 thinking rather than deliberate analysis.",
+        "behavioral_stage": "Pre-contemplation",
+        "behavioral_stage_reasoning": "Very brief session (18 seconds) with minimal engagement suggests the user is not actively considering energy reduction. Low interaction levels across all appliances and quick exit from the dashboard indicate lack of awareness or interest in changing energy consumption behaviors.",
+        "attention_availability": "low",
+        "attention_availability_reasoning": "Morning session on mobile device with very short duration (18 seconds) indicates limited attention availability. The user was likely multitasking or checking the dashboard briefly without capacity for deep engagement.",
+        "modeling_timestamp": "2025-11-09T09:16:05.234567"
+      },
+      "nudge_intelligence": {
+        "selected_strategy": "Just-in-time prompts",
+        "strategy_description": "Deliver timely interventions at moments of peak receptivity or decision-making",
+        "strategy_selection_reasoning": "For users in Pre-contemplation with intuitive/fast thinking and low attention, brief just-in-time prompts are most effective. The user needs immediate, simple awareness triggers rather than detailed information. A quick prompt about washing machine usage (their most-engaged appliance despite brief session) can plant seeds for future consideration.",
+        "nudge_message": "Quick tip: Your washing machine used 2.1 kWh yesterday. Running full loads instead of partial ones could cut this by 30%. Small changes add up!",
+        "generation_timestamp": "2025-11-09T09:20:18.345678",
+        "feedback": "the user didn't like this nudge"
+      }
+    },
+    {
+      "nudge_id": "nudge_003",
+      "session_id": "sess_4a2b1c9d",
+      "timestamp": "2025-11-08T19:45:22.987654",
+      "user_modeling": {
+        "cognitive_mode": "analytical/slow",
+        "cognitive_mode_reasoning": "Extended session of 312 seconds with deep engagement on oven (95 seconds, 18 clicks, 6800ms hesitation) and refrigerator (78 seconds, 14 clicks, 5200ms hesitation). Multiple return visits to the same appliances indicate systematic comparison and analysis characteristic of deliberate System 2 thinking.",
+        "behavioral_stage": "Preparation",
+        "behavioral_stage_reasoning": "High engagement with specific appliances (oven and refrigerator) combined with focused attention patterns suggests the user is preparing to take action. The concentrated analysis on two key appliances rather than broad exploration indicates movement from contemplation toward concrete planning.",
+        "attention_availability": "high",
+        "attention_availability_reasoning": "Evening session on desktop at home with extended duration (312 seconds) and focused deep dives into specific appliances indicates high cognitive availability. The desktop context and sustained engagement suggest the user has dedicated time for energy management.",
+        "modeling_timestamp": "2025-11-08T19:50:45.123456"
+      },
+      "nudge_intelligence": {
+        "selected_strategy": "Enable comparisons",
+        "strategy_description": "Facilitate direct comparison between options using metrics, visuals, or side-by-side layouts",
+        "strategy_selection_reasoning": "Users in Preparation stage with analytical thinking and high attention benefit from detailed comparisons that support action planning. The user's focus on oven and refrigerator suggests readiness for specific interventions. Enabling comparison of different usage scenarios empowers concrete decision-making.",
+        "nudge_message": "Compare your options: Your oven at 2400W vs air-fryer at 1500W saves 0.9 kWh per hour. Using the air-fryer 4 times weekly instead of the oven could reduce monthly consumption by 14.4 kWh (\u20ac4.32 saved). Your refrigerator efficiency drops 25% when set below 3\u00b0C\u2014adjust temperature for instant savings.",
+        "generation_timestamp": "2025-11-08T19:55:12.456789",
+        "feedback": "the user liked this nudge"
+      }
+    }
+  ],
+  "user_modeling": {
+    "cognitive_mode": "intuitive/fast",
+    "cognitive_mode_reasoning": "User session lasted only 2.8 seconds with minimal clicks and scrolls per appliance, indicating rapid scanning without deep engagement. Short session duration and low interaction depth suggest quick, impulsive decision-making rather than deliberate analysis.",
+    "behavioral_stage": "Contemplation",
+    "behavioral_stage_reasoning": "User exhibited high hesitation on high-consumption appliances (washing_machine, dishwasher, air_conditioner) and engaged with usage data monitoring, indicating active exploration of energy-saving options. However, the extremely short session duration (2.8s) and lack of concrete action suggest they are still in the research phase rather than committing to changes.",
+    "attention_availability": "medium",
+    "attention_availability_reasoning": "User is on a laptop in the afternoon at home, suggesting potential for focused attention. However, the extremely short session duration (2.8s) with interactions across multiple appliances indicates scattered, superficial engagement rather than deep focus.",
+    "modeling_timestamp": "2025-11-16T14:26:08.865449"
+  },
+  "nudge_intelligence": {
+    "selected_strategy": "Raise visibility of user's actions",
+    "strategy_description": "Make user actions more observable to themselves or others to heighten awareness and accountability",
+    "strategy_selection_reasoning": "The user's intuitive/fast cognitive mode and Contemplation stage suggest they need immediate, impactful awareness triggers. Medium attention availability allows for processing concise, visibility-focused information, aligning with the success of this strategy in prior interactions.",
+    "nudge_message": {
+      "message": "Your air conditioner used 22.75 kWh yesterday\u2014over 10% of your daily energy use. Set it to 24\u00b0C now to cut consumption by 20% instantly. Track your savings in the app."
+    },
+    "generation_timestamp": "2025-11-16T14:27:32.605562"
+  },
+  "ui_adaptation": {
+    "font_size": "21px",
+    "background_colour": "#F1DF96FF",
+    "primary_colour": "#AFCEF1FF",
+    "secondary_colour": "#BBF8B8FF",
+    "consumption_graph": "line",
+    "price_graph": "line",
+    "adaptation_reasoning": "User is in neutral mood. UI adapted for intuitive/fast cognitive mode, Contemplation behavioral stage, and medium attention availability. Font size 21px selected for optimal readability. Consumption data visualized as line chart and price trends as line chart. Color scheme: #F1DF96FF background with #AFCEF1FF primary and #BBF8B8FF secondary accents for enhanced emotional engagement.",
+    "generation_timestamp": "2025-11-16T14:27:51.946449"
+  }
+}

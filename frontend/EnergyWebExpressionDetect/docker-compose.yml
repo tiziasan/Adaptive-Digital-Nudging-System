@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    container_name: energi_frontend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src/utils/server.js:/app/server.js
+      - ./.env:/app/.env:ro
+    networks:
+      - frontend
+    environment:
+      - NODE_ENV=production
+
+networks:
+  frontend:
