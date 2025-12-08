@@ -1,0 +1,79 @@
+{
+  "user_id": "user_ded4wxbi",
+  "session_id": "sess_oisqoggo",
+  "timestamp": "2025-12-08T15:16:33.556Z",
+  "session_duration_sec": 59.01,
+  "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+  "screen": "3413x1813",
+  "electrodomestic_interactions": [
+    {
+      "appliance_type": "Fridge",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 24,
+      "usage_hours_last_week": 168,
+      "appliance_watt_consumption": 120
+    },
+    {
+      "appliance_type": "Oven",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 0.5,
+      "usage_hours_last_week": 3.5,
+      "appliance_watt_consumption": 2400
+    },
+    {
+      "appliance_type": "TV",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 3,
+      "usage_hours_last_week": 21,
+      "appliance_watt_consumption": 90
+    },
+    {
+      "appliance_type": "Laptop",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 4,
+      "usage_hours_last_week": 28,
+      "appliance_watt_consumption": 65
+    },
+    {
+      "appliance_type": "Heater",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 5,
+      "usage_hours_last_week": 35,
+      "appliance_watt_consumption": 2000
+    },
+    {
+      "appliance_type": "Washer",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 1,
+      "usage_hours_last_week": 7,
+      "appliance_watt_consumption": 700
+    },
+    {
+      "appliance_type": "AC",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 8,
+      "usage_hours_last_week": 56,
+      "appliance_watt_consumption": 850
+    }
+  ],
+  "page_scrolls": 0,
+  "user_emotion": {
+    "angry": 0.054547324776649475,
+    "disgusted": 0.002688284730538726,
+    "fearful": 1.8655080680218816e-07,
+    "happy": 0.004427853971719742,
+    "neutral": 0.9382822513580322,
+    "sad": 4.7591554903192446e-05,
+    "surprised": 6.652858701272635e-06
+  },
+  "current_price": 0.35,
+  "nudge_id": "nudge_top_Heater_1765206936469",
+  "previous_nudges": []
+}

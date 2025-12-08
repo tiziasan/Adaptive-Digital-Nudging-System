@@ -1,0 +1,72 @@
+{
+  "user_id": "user_8a7f2e1d",
+  "session_id": "sess_9b4c3d2a",
+  "timestamp": "2025-11-12T13:42:15.234567",
+  "session_duration_sec": 245.8,
+  "electrodomestic_interactions": [
+    {
+      "appliance_type": "washing_machine",
+      "clicks": 8,
+      "scrolls": 15,
+      "hesitation_ms": 4200,
+      "duration_ms": 45000,
+      "usage_hours_yesterday": 2.3,
+      "usage_hours_last_week": 8.5,
+      "watt_consumption": 2000
+    },
+    {
+      "appliance_type": "refrigerator",
+      "clicks": 3,
+      "scrolls": 5,
+      "hesitation_ms": 1800,
+      "duration_ms": 22000,
+      "usage_hours_yesterday": 24.0,
+      "usage_hours_last_week": 168.0,
+      "watt_consumption": 150
+    },
+    {
+      "appliance_type": "dishwasher",
+      "clicks": 12,
+      "scrolls": 20,
+      "hesitation_ms": 5600,
+      "duration_ms": 68000,
+      "usage_hours_yesterday": 1.8,
+      "usage_hours_last_week": 9.2,
+      "watt_consumption": 1200
+    },
+    {
+      "appliance_type": "air_conditioner",
+      "clicks": 5,
+      "scrolls": 8,
+      "hesitation_ms": 2400,
+      "duration_ms": 31000,
+      "usage_hours_yesterday": 6.5,
+      "usage_hours_last_week": 42.0,
+      "watt_consumption": 3500
+    },
+    {
+      "appliance_type": "oven",
+      "clicks": 2,
+      "scrolls": 3,
+      "hesitation_ms": 900,
+      "duration_ms": 12000,
+      "usage_hours_yesterday": 0.5,
+      "usage_hours_last_week": 3.2,
+      "watt_consumption": 2400
+    }
+  ],
+  "context": {
+    "time_of_day": "afternoon",
+    "location": "home",
+    "device_type": "mobile"
+  },
+  "user_modeling": {
+    "cognitive_mode": "analytical/slow",
+    "cognitive_mode_reasoning": "The user demonstrates analytical thinking through sustained engagement: 68 seconds on the dishwasher with 12 clicks and 5.6 seconds of hesitation, plus 45 seconds on the washing machine with 8 clicks and 4.2 seconds hesitation. This pattern of multiple interactions with extended dwell times across several appliances indicates systematic, deliberate analysis rather than quick, intuitive decision-making.",
+    "behavioral_stage": "Contemplation",
+    "behavioral_stage_reasoning": "The user shows high engagement with energy data (245.8 second session exploring 5 appliances) and exhibits research behavior through long hesitation times on high-consumption appliances. However, the exploration pattern without focused action on the highest consumer (air conditioner: 22.75 kWh/day) suggests information gathering rather than commitment to specific changes, placing them in the Contemplation stage.",
+    "attention_availability": "medium",
+    "attention_availability_reasoning": "Mobile device usage in the afternoon at home indicates moderate attention capacity. The 245-second session with engagement across multiple appliances shows sustained interest, but the mobile context and distributed attention (5 different appliances) suggests medium rather than high cognitive availability for processing complex information.",
+    "modeling_timestamp": "2025-11-12T16:10:32.891234"
+  }
+}
