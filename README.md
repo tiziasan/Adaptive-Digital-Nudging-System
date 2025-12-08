@@ -1,10 +1,17 @@
 # Adaptive-Digital-Nudging-System
-Questa repository è il supplemental material per il paper **From Behavioral Theory to Software Architecture: Designing Adaptive Digital Nudging Systems**
-- La cartella backend contiene il codice python dell'implementazione della Digital Nudging Architecture
-- La cartella frontend contiene la adaptive dashboard in React della Digital Nudging Architecture
-- La cartella screenshoot contiene: screenshot dell'explainability panel, e screenshot dell'adaptive dashboard
-- La cartella data contiene le domande e le risposte della validazione architetturale degli esperti 
-- 
+This repository is the supplemental material for the paper **From Behavioral Theory to Software Architecture: Designing Adaptive Digital Nudging Systems**
+- The backend folder contains the Python code of the Digital Nudging Architecture implementation
+- The frontend folder contains the adaptive dashboard in React of the Digital Nudging Architecture
+- The screenshot folder contains:
+  - screenshots of the explainability panel
+  - screenshots of the adaptive dashboard
+- The data folder contains:
+  - questions and answers from the expert architectural validation
+  - the complete list of nudging strategies with descriptions extracted from the literature review
+  - questions and answers from the user testing
+  - raw data from the user testing
+
+  
 ## Backend installation
 ```bash
 pip install openai
