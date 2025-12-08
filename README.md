@@ -3,13 +3,13 @@ This repository is the supplemental material for the paper **From Behavioral The
 - The backend folder contains the Python code of the Digital Nudging Architecture implementation
 - The frontend folder contains the adaptive dashboard in React of the Digital Nudging Architecture
 - The screenshot folder contains:
-  - screenshots of the explainability panel
-  - screenshots of the adaptive dashboard
+  - Screenshot of the explainability panel
+  - Screenshot of the adaptive dashboard
 - The data folder contains:
-  - questions and answers from the expert architectural validation
-  - the complete list of nudging strategies with descriptions extracted from the literature review
-  - questions and answers from the user testing
-  - raw data from the user testing
+  - Questions and answers from the expert architectural validation
+  - The complete list of nudging strategies with descriptions extracted from the literature review
+  - Questions and answers from the user testing
+  - Raw data from the user testing
 
   
 ## Backend installation
