@@ -1,0 +1,88 @@
+{
+  "user_id": "user_ded4wxbi",
+  "session_id": "sess_oisqoggo",
+  "timestamp": "2025-12-08T15:16:33.556Z",
+  "session_duration_sec": 59.01,
+  "current_price": 0.35,
+  "user_emotion": "neutral",
+  "electrodomestic_interactions": [
+    {
+      "appliance_type": "Fridge",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 24,
+      "usage_hours_last_week": 168,
+      "appliance_watt_consumption": 120
+    },
+    {
+      "appliance_type": "Oven",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 0.5,
+      "usage_hours_last_week": 3.5,
+      "appliance_watt_consumption": 2400
+    },
+    {
+      "appliance_type": "TV",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 3,
+      "usage_hours_last_week": 21,
+      "appliance_watt_consumption": 90
+    },
+    {
+      "appliance_type": "Laptop",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 4,
+      "usage_hours_last_week": 28,
+      "appliance_watt_consumption": 65
+    },
+    {
+      "appliance_type": "Heater",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 5,
+      "usage_hours_last_week": 35,
+      "appliance_watt_consumption": 2000
+    },
+    {
+      "appliance_type": "Washer",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 1,
+      "usage_hours_last_week": 7,
+      "appliance_watt_consumption": 700
+    },
+    {
+      "appliance_type": "AC",
+      "clicks": 0,
+      "hesitation_ms": 0,
+      "usage_hours_yesterday": 8,
+      "usage_hours_last_week": 56,
+      "appliance_watt_consumption": 850
+    }
+  ],
+  "context": {
+    "time_of_day": "afternoon",
+    "location": "home",
+    "device_type": "desktop"
+  },
+  "previous_nudges": [],
+  "user_modeling": {
+    "cognitive_mode": "intuitive/fast",
+    "cognitive_mode_reasoning": "User interacted with the dashboard for only 59 seconds with no clicks or hesitation, indicating quick scanning behavior rather than deliberate analysis.",
+    "behavioral_stage": "Pre-contemplation",
+    "behavioral_stage_reasoning": "User shows minimal interaction with appliances, as indicated by zero clicks and a short session duration of 59 seconds. This suggests a lack of awareness or interest in energy-saving behaviors.",
+    "attention_availability": "medium",
+    "attention_availability_reasoning": "User is on a desktop device in the afternoon at home, which suggests a moderate level of focus. However, the short session duration of 59 seconds and the lack of interactions indicate that attention may not be deeply engaged.",
+    "modeling_timestamp": "2025-12-08T16:16:40.614708"
+  },
+  "nudge_intelligence": {
+    "selected_strategy": "Raise visibility of user's actions",
+    "strategy_description": "Make user actions more observable to themselves or others to heighten awareness and accountability",
+    "strategy_selection_reasoning": "The user is in the Pre-contemplation stage and has an intuitive/fast cognitive mode, indicating a lack of awareness or interest in energy-saving behaviors. By raising the visibility of their actions, we can help them recognize their energy consumption without overwhelming them, as this aligns with their moderate attention availability.",
+    "nudge_message": "Your heater is using about 10 kWh per week, costing you around \u20ac3.50! Consider lowering the temperature by just a couple of degrees to save energy. Small changes can make a difference!",
+    "generation_timestamp": "2025-12-08T16:16:44.917760"
+  }
+}
