@@ -1,1 +1,2 @@
-
+The Adaptive_Dashboard image shows the Dashboard of the system.
+The Explainability_Panel image shows the panel with the rationate from the LLM decisions
