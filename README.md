@@ -10,6 +10,8 @@ This repository is the supplemental material for the paper **From Behavioral The
   - The complete list of nudging strategies with descriptions extracted from the literature review
   - Questions and answers from the user testing
   - Raw data from the user testing
+  - Inclusion/exclusion criteria for literature review
+  - Literature review diagram flow
 
   
 ## Backend installation
