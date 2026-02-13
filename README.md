@@ -1,5 +1,5 @@
 # Adaptive-Digital-Nudging-System
-This repository is the supplemental material for the paper **From Behavioral Theory to Software Architecture: Designing Adaptive Digital Nudging Systems**
+This repository is the supplemental material for the paper **Designing Adaptive Digital Nudging Systems with LLM-Driven Reasoning**
 - The backend folder contains the Python code of the Digital Nudging Architecture implementation
 - The frontend folder contains the adaptive dashboard in React of the Digital Nudging Architecture
 - The screenshot folder contains:
